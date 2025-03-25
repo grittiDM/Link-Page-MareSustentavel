@@ -1,0 +1,46 @@
+/* ===================================
+   MediaQuerry Adaptativa
+=================================== */
+/* Styles for small devices (e.g., smartphones) */
+@media (max-width: 425px) {
+    .icon img {
+      max-width: 70px; 
+       }
+      .card-box h3 {
+        font-size: 18px;
+      }
+  
+      .card-box p {
+        font-size: 14px;
+      }
+  }
+  
+  /* Styles for medium devices (e.g., tablets) */
+  @media (min-width: 426px) and (max-width: 768px) {
+    .icon img {
+      max-width: 75px; 
+    }
+  }
+  
+  /* Styles for large devices (e.g., desktops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .icon img {
+      max-width: 80px; 
+    }
+  
+    .card-box h3 {
+      font-size: 18px;
+    }
+  
+    .card-box p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Styles for extra large devices (e.g., desktops) */
+  @media (min-width: 1025px) {
+    .icon img {
+      max-width: 85px; 
+    }
+  }
+  
